@@ -15,3 +15,11 @@ An Android application that helps users identify potential injuries based on sym
 - **APIs:** Google Custom Search API  
 - **Tools:** Android Studio, Gradle  
 - **UI:** Android Support Libraries (AppCompat, ConstraintLayout)  
+
+## Future Improvements
+- Migrate codebase from Java to **Kotlin** for cleaner syntax and null safety  
+- Adopt **Jetpack components** (ViewModel, LiveData, WorkManager)  
+- Replace `AsyncTask` with **Retrofit/OkHttp + coroutines**  
+- Add **Firebase** for logging queries and storing user history  
+- Implement **Espresso/UI test suite** for automated validation  
+- Upgrade UI with **Material 3** for a modern look  
