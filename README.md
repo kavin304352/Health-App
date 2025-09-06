@@ -1,26 +1,17 @@
-# Health App: Injury Detection  
+# Health App – Injury Detection
 
-An Android application built with **Kotlin** and **Android Studio** that collects user symptom surveys and suggests potential injury diagnoses with supporting alternatives. The app demonstrates a lightweight, mobile-first approach to healthcare support systems and integrates modern Android development practices.
-
----
+An Android application that helps users identify potential injuries based on symptoms. The app leverages the **Google Custom Search API** and **web scraping (jsoup)** to pull information from public health sources, then ranks possible injuries by keyword frequency.
 
 ## Features
-- **Symptom Survey**: Guided questionnaire for users to input injury details  
-- **Probable Diagnosis**: Displays most likely injury outcome along with alternatives  
-- **User Authentication**: Secure sign-in and account management with **Firebase Authentication**  
-- **Cloud Data Storage**: Saves survey responses and profiles using **Firebase Firestore**  
-- **Modern Android Architecture**: Built with **Jetpack components** (ViewModel, LiveData, Navigation) for lifecycle management and maintainability  
-- **UI Testing**: Automated validation of workflows using **Espresso**  
-
----
+- **Symptom Lookup** – Select a body region (Head, Arm, Leg, Torso) and enter symptoms  
+- **Google Custom Search API** – Queries health related resources dynamically  
+- **Web Scraping with jsoup** – Parses search results and counts injury-related keywords  
+- **Ranked Injury List** – Displays possible conditions ordered by relevance  
+- **Asynchronous Requests** – Uses `AsyncTask` for background network and parsing operations  
 
 ## Tech Stack
-- **Language:** Kotlin  
-- **IDE:** Android Studio  
-- **Architecture:** MVVM (Model–View–ViewModel) with Jetpack components  
-- **Database & Auth:** Firebase Authentication & Firestore  
-- **UI Testing:** Espresso  
-- **UI Design:** Material Design, ConstraintLayout  
-
----
-
+- **Language:** Java  
+- **Libraries:** [jsoup](https://jsoup.org/) for HTML parsing  
+- **APIs:** Google Custom Search API  
+- **Tools:** Android Studio, Gradle  
+- **UI:** Android Support Libraries (AppCompat, ConstraintLayout)  
