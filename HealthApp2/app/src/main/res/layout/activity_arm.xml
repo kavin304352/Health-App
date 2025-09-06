@@ -1,0 +1,159 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/arm_title"
+        android:textSize="30dp"
+        android:padding="10dp"/>
+
+    <ImageButton
+        android:id="@+id/image_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:src="@drawable/arm" />
+
+    <LinearLayout
+        android:id="@+id/hand_wrist_questions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hand_wrist_title"
+            android:textSize="30dp"
+            android:padding="10dp"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/q1"
+        android:textSize="20dp"
+        android:padding="10dp"/>
+        <CheckBox android:id="@+id/wrist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wrist"/>
+        <CheckBox android:id="@+id/knuckles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Knuckles"/>
+        <CheckBox android:id="@+id/fingers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fingers"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q2"
+            android:textSize="20dp"
+            android:padding="10dp"/>
+        <CheckBox android:id="@+id/stiffness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stiffness"/>
+        <CheckBox android:id="@+id/swellingHW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Swelling"/>
+        <CheckBox android:id="@+id/bruising"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bruising"/>
+        <CheckBox android:id="@+id/decreasedMotion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Decreased Motion"/>
+        <CheckBox android:id="@+id/tendernessHW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tenderness"/>
+        <CheckBox android:id="@+id/deformity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deformity"/>
+        <CheckBox android:id="@+id/rednessHW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Redness"/>
+        <CheckBox android:id="@+id/weakness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weakness"/>
+        <Button android:id="@+id/done_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Done!"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/elbow_questions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/elbow_title"
+            android:textSize="30dp"
+            android:padding="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q1"
+            android:textSize="20dp"
+            android:padding="10dp"/>
+        <CheckBox android:id="@+id/inside"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inside"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox android:id="@+id/outside"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Outside"
+            android:onClick="onCheckboxClicked"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q2"
+            android:textSize="20dp"
+            android:padding="10dp"/>
+        <CheckBox android:id="@+id/swellingE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Swelling"/>
+        <CheckBox android:id="@+id/rednessE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Redness"/>
+        <CheckBox android:id="@+id/tendernessE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tenderness"/>
+        <Button android:id="@+id/done_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Done!"/>
+    </LinearLayout>
+</LinearLayout>

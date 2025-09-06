@@ -1,0 +1,177 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Head"
+        android:textSize="30dp"
+        android:padding="10dp"/>
+
+    <ImageButton
+        android:id="@+id/image_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:src="@drawable/head" />
+
+    <LinearLayout
+        android:id="@+id/head_questions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/head_head_title"
+            android:textSize="30dp"
+            android:padding="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q1"
+            android:textSize="20dp"
+            android:padding="10dp"/>
+        <CheckBox android:id="@+id/nose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nose"/>
+        <CheckBox android:id="@+id/jaw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jaw"/>
+        <CheckBox android:id="@+id/ear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ear"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q2"
+            android:textSize="20dp"
+            android:padding="10dp"/>
+        <CheckBox android:id="@+id/bleeding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bleeding"/>
+        <CheckBox android:id="@+id/swellingH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Swelling"/>
+        <CheckBox android:id="@+id/bruisingH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bruising"/>
+        <CheckBox android:id="@+id/difficultyBreathing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Difficulty Breathing"/>
+        <CheckBox android:id="@+id/rednessH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Redness"/>
+        <CheckBox android:id="@+id/pain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pain"/>
+        <CheckBox android:id="@+id/difficultySpeaking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Difficulty Speaking"/>
+        <CheckBox android:id="@+id/deformityH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deformity"/>
+        <Button android:id="@+id/done_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Done!"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/neck_shoulder_questions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/neck_shoulder_title"
+            android:textSize="30dp"
+            android:padding="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q1"
+            android:textSize="20dp"
+            android:padding="10dp"/>
+        <CheckBox android:id="@+id/neck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Neck"/>
+        <CheckBox android:id="@+id/shoulder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shoulder"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q2"
+            android:textSize="20dp"
+            android:padding="10dp"/>
+        <CheckBox android:id="@+id/stiffness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stiffness"/>
+        <CheckBox android:id="@+id/swellingNS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Swelling"/>
+        <CheckBox android:id="@+id/bruisingNS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bruising"/>
+        <CheckBox android:id="@+id/decreasedMotion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Decreased Motion"/>
+        <CheckBox android:id="@+id/tendernessNS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tenderness"/>
+        <CheckBox android:id="@+id/deformityNS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deformity"/>
+        <CheckBox android:id="@+id/rednessNS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Redness"/>
+        <CheckBox android:id="@+id/weakness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weakness"/>
+        <Button android:id="@+id/done_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Done!"/>
+    </LinearLayout>
+</LinearLayout>

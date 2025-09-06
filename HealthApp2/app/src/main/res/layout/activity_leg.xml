@@ -1,0 +1,251 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/leg_title"
+        android:textSize="30dp"
+        android:padding="10dp"/>
+
+    <ImageButton
+        android:id="@+id/image_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:src="@drawable/leg" />
+
+    <LinearLayout
+        android:id="@+id/knee_questions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/knee_title"
+            android:textSize="30dp"
+            android:padding="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q1"
+            android:textSize="20dp"
+            android:padding="10dp"/>
+        <CheckBox android:id="@+id/kneecap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kneecap"/>
+        <CheckBox android:id="@+id/sidesOfKnee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sides of Knee"/>
+        <CheckBox android:id="@+id/backOfKnee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back of Knee"/>
+        <CheckBox android:id="@+id/cannotPinpoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cannot Pinpoint"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q2"
+            android:textSize="20dp"
+            android:padding="10dp"/>
+        <CheckBox android:id="@+id/poppingK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Popping"/>
+        <CheckBox android:id="@+id/unstable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unstable"/>
+        <CheckBox android:id="@+id/swollen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Swollen"/>
+        <CheckBox android:id="@+id/decreasedMotionK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Decreased Motion"/>
+        <CheckBox android:id="@+id/cannotSupportWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cannot Support Weight"/>
+        <CheckBox android:id="@+id/inflammation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inflammation"/>
+        <CheckBox android:id="@+id/tendernessK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tender"/>
+        <Button android:id="@+id/done_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Done!"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/leg_questions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/leg_title"
+            android:textSize="30dp"
+            android:padding="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q1"
+            android:textSize="20dp"
+            android:padding="10dp"/>
+        <CheckBox android:id="@+id/bone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bone"/>
+        <CheckBox android:id="@+id/skin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q2"
+            android:textSize="20dp"
+            android:padding="10dp"/>
+        <CheckBox android:id="@+id/swellingL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Swelling"/>
+        <CheckBox android:id="@+id/weakness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weakness"/>
+        <CheckBox android:id="@+id/tendernessL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tenderness"/>
+        <CheckBox android:id="@+id/decreasedMotionL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Decreased Motion"/>
+        <CheckBox android:id="@+id/bleeding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bleeding"/>
+        <CheckBox android:id="@+id/limping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Limping"/>
+        <Button android:id="@+id/done_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Done!"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/foot_ankle_questions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/foot_ankle_title"
+            android:textSize="30dp"
+            android:padding="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q1"
+            android:textSize="20dp"
+            android:padding="10dp"/>
+        <CheckBox android:id="@+id/backOfHeel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back Of Heel"/>
+        <CheckBox android:id="@+id/ankle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ankle"/>
+        <CheckBox android:id="@+id/bottomOfFoot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bottom of Foot"/>
+        <CheckBox android:id="@+id/ballOfFoot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ball of Foot"/>
+        <CheckBox android:id="@+id/bigToe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Big Toe"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q2"
+            android:textSize="20dp"
+            android:padding="10dp"/>
+        <CheckBox android:id="@+id/swellingFA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Swelling"/>
+        <CheckBox android:id="@+id/rednessFA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Redness"/>
+        <CheckBox android:id="@+id/tendernessFA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tenderness"/>
+        <CheckBox android:id="@+id/poppingFA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Popping"/>
+        <CheckBox android:id="@+id/bruisingFA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bruising"/>
+        <CheckBox android:id="@+id/decreasedMotionFA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Decreased Motion"/>
+        <CheckBox android:id="@+id/difficultWalking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Difficulty Walking"/>
+        <Button android:id="@+id/done_button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Done!"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">HackTJ2K19</string>
+    <string name="election_results">Injury Results</string>
+    <string name="pie_chart">Pie Chart</string>
+    <string name="main_title">Injury Detector</string>
+    <string name="arm_title">Arm</string>
+    <string name="leg_title">Leg</string>
+    <string name="head_title">Head</string>
+    <string name="hand_wrist_title">Hand and Wrist</string>
+    <string name="elbow_title">Elbow</string>
+    <string name="head_head_title">Face</string>
+    <string name="neck_shoulder_title">Neck and Shoulder</string>
+    <string name="hip_groin_title">Hip and Groin</string>
+    <string name="knee_title">Knee</string>
+    <string name="foot_ankle_title">Ankle and Foot</string>
+    <string name="q1">Where do you feel the most pain?</string>\
+    <string name="q2">Do you feel any of the following?</string>\
+</resources>

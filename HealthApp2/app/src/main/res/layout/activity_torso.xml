@@ -1,0 +1,72 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Torso"
+        android:textSize="30dp"
+        android:padding="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hip_groin_title"
+            android:textSize="30dp"
+            android:padding="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q1"
+            android:textSize="20dp"
+            android:padding="10dp"/>
+        <CheckBox android:id="@+id/groin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Groin"/>
+        <CheckBox android:id="@+id/hip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hip"/>
+        <CheckBox android:id="@+id/pelvis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pelvis"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q2"
+            android:textSize="20dp"
+            android:padding="10dp"/>
+        <CheckBox android:id="@+id/pain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pain"/>
+        <CheckBox android:id="@+id/swelling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Swelling"/>
+        <CheckBox android:id="@+id/tenderness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tenderness"/>
+        <Button android:id="@+id/done_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Done!"/>
+    </LinearLayout>
+</LinearLayout>
